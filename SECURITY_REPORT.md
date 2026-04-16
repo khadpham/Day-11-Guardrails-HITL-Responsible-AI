@@ -1,5 +1,6 @@
-# Individual Security Report: AI Banking Defense Pipeline
-
+# Individual Security Report: AI Banking Defense Pipeline 
+---
+**Phạm Đan Kha - 2A202600253**
 ## 1. Selected Defense Layers & Rationale
 My pipeline implements 6 layers of security to ensure maximum protection:
 1. **Rate Limiter**: Prevents DoS and brute-force attacks by limiting request frequency.
@@ -38,5 +39,5 @@ I implemented an **Advanced Output Sanitizer** (Layer 6).
 - **Value**: It serves as the ultimate "Backstop". If an attacker manages to bypass the Input Guard and the AI Judge, this layer ensures that no sensitive system credentials (like sk-API-keys) ever leave the server.
 
 ---
-**Author: AI Defense Expert**
+
 **Date: 2024-04-16**
